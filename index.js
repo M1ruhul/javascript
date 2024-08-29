@@ -59,5 +59,8 @@
 
 
 
+let nowDate = new Date();
+console.log(nowDate.toDateString());
+
 let nowTime = new Date();
-console.log(nowTime.toDateString());
+console.log(nowTime.toLocaleTimeString());

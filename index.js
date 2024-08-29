@@ -43,15 +43,21 @@
 // else{
 //     console.log('doesn0t match')
 // }
-let fdName = 'shuv0';
-switch (fdName) {
-    case 'mehedi':
-    console.log('ekhono halay Dohar');
-        break;
-    case 'nesar':
-        console.log('upwork niye busy');
+// let fdName = 'shuv0';
+// switch (fdName) {
+//     case 'mehedi':
+//     console.log('ekhono halay Dohar');
+//         break;
+//     case 'nesar':
+//         console.log('upwork niye busy');
 
-    default:
-        console.log('amar log in code astese na and asbeo na');
-        break;
-}
+//     default:
+//         console.log('amar log in code astese na and asbeo na');
+//         break;
+// }
+
+
+
+
+let nowTime = new Date();
+console.log(nowTime.toDateString());

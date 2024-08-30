@@ -59,8 +59,13 @@
 
 
 
-let nowDate = new Date();
-console.log(nowDate.toDateString());
+// let nowDate = new Date();
+// console.log(nowDate.toDateString());
 
-let nowTime = new Date();
-console.log(nowTime.toLocaleTimeString());
+// let nowTime = new Date();
+// console.log(nowTime.toLocaleTimeString());
+
+let fdName = ["monir" , "nesar" , "mehedi" , "Ruhul"]
+// console.log(fdName[3]);
+fdName[0] = 'new name';
+console.log(fdName);

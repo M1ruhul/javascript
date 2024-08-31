@@ -79,10 +79,29 @@
 // fdName.shift();
 // console.log(fdName);
 
-let fdName = ['ruhul','monir', 'shuvo', 'mehedi'];
+// let fdName = ['ruhul','monir', 'shuvo', 'mehedi'];
+// console.log(fdName);
 
+// console.log(fdName.slice(1,3));
 
-console.log(fdName.slice(1,3));
+// fdName.splice(1,3 , "ami tumake valobashi");
+// console.log(fdName);
+let herName = 'Anika';
+switch(herName) {
+case 'Anika' :
+    console.log('Amader coronar somoy 5 minutes er modde friendship hoy');
+    // break;
+    case 'Anika' :
+        console.log('last year birthday o amar jonno B&H niye eshesilon sathe or bf ke o niye eshesilo');
+        // break;
+    case 'Anika' :
+        console.log('ora court marriage korar decission ney and amake sakkhi hisebe thakte bole ami oidin jainai');
+        // break;
+        case 'Anika' :
+            console.log('ore niye cha khaite jai and oi somoy or ammu and fiance call dey oidin je amar sathe asbe egulo agei bolesilo');
+// break;
+            default : 
+            console.log('oder shooping korlo sedin amake jodio jete bolesilo');
+            
 
-fdName.splice(1,3 , "ami tumake valobashi");
-console.log(fdName);
+}

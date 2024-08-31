@@ -65,7 +65,16 @@
 // let nowTime = new Date();
 // console.log(nowTime.toLocaleTimeString());
 
+// let fdName = ["monir" , "nesar" , "mehedi" , "Ruhul"]
+// // console.log(fdName[3]);
+// fdName[0] = 'new name';
+// console.log(fdName);
 let fdName = ["monir" , "nesar" , "mehedi" , "Ruhul"]
-// console.log(fdName[3]);
-fdName[0] = 'new name';
+fdName.push(3245);
+console.log(fdName);
+fdName.pop();
+console.log(fdName);
+fdName.unshift(61);
+console.log(fdName);
+fdName.shift();
 console.log(fdName);

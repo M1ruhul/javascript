@@ -69,12 +69,20 @@
 // // console.log(fdName[3]);
 // fdName[0] = 'new name';
 // console.log(fdName);
-let fdName = ["monir" , "nesar" , "mehedi" , "Ruhul"]
-fdName.push(3245);
-console.log(fdName);
-fdName.pop();
-console.log(fdName);
-fdName.unshift(61);
-console.log(fdName);
-fdName.shift();
+// let fdName = ["monir" , "nesar" , "mehedi" , "Ruhul"]
+// fdName.push(3245);
+// console.log(fdName);
+// fdName.pop();
+// console.log(fdName);
+// fdName.unshift(61);
+// console.log(fdName);
+// fdName.shift();
+// console.log(fdName);
+
+let fdName = ['ruhul','monir', 'shuvo', 'mehedi'];
+
+
+console.log(fdName.slice(1,3));
+
+fdName.splice(1,3 , "ami tumake valobashi");
 console.log(fdName);

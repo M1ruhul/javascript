@@ -108,7 +108,12 @@
 // for(let num = 1; num<10; num++){
 //     console.log(num);
 // }
-let nums = [0,1,2,3,4,5,6,7,8,9, 'ruhul', 'nai'];
-for(let i = 0; i <nums.length ; i ++ ){
-    console.log(nums[i])
+// let nums = [0,1,2,3,4,5,6,7,8,9, 'ruhul', 'nai'];
+// for(let i = 0; i <nums.length ; i ++ ){
+//     console.log(nums[i])
+// }
+let i = 0;
+while(i<=10){
+    console.log(i);
+    i++
 }

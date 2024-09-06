@@ -86,22 +86,29 @@
 
 // fdName.splice(1,3 , "ami tumake valobashi");
 // console.log(fdName);
-let herName = 'Anika';
-switch(herName) {
-case 'Anika' :
-    console.log('Amader coronar somoy 5 minutes er modde friendship hoy');
-    // break;
-    case 'Anika' :
-        console.log('last year birthday o amar jonno B&H niye eshesilon sathe or bf ke o niye eshesilo');
-        // break;
-    case 'Anika' :
-        console.log('ora court marriage korar decission ney and amake sakkhi hisebe thakte bole ami oidin jainai');
-        // break;
-        case 'Anika' :
-            console.log('ore niye cha khaite jai and oi somoy or ammu and fiance call dey oidin je amar sathe asbe egulo agei bolesilo');
-// break;
-            default : 
-            console.log('oder shooping korlo sedin amake jodio jete bolesilo');
+// let herName = 'Anika';
+// switch(herName) {
+// case 'Anika' :
+//     console.log('Amader coronar somoy 5 minutes er modde friendship hoy');
+//     // break;
+//     case 'Anika' :
+//         console.log('last year birthday o amar jonno B&H niye eshesilon sathe or bf ke o niye eshesilo');
+//         // break;
+//     case 'Anika' :
+//         console.log('ora court marriage korar decission ney and amake sakkhi hisebe thakte bole ami oidin jainai');
+//         // break;
+//         case 'Anika' :
+//             console.log('ore niye cha khaite jai and oi somoy or ammu and fiance call dey oidin je amar sathe asbe egulo agei bolesilo');
+// // break;
+//             default : 
+//             console.log('oder shooping korlo sedin amake jodio jete bolesilo');
             
 
+// }
+// for(let num = 1; num<10; num++){
+//     console.log(num);
+// }
+let nums = [0,1,2,3,4,5,6,7,8,9, 'ruhul', 'nai'];
+for(let i = 0; i <nums.length ; i ++ ){
+    console.log(nums[i])
 }

@@ -117,10 +117,17 @@
 //     console.log(i);
 //     i++
 // }
-function fun(num1, num2){
-    let total = num1 + num2;
+// function fun(num1, num2){
+//     let total = num1 + num2;
 
-console.log(total);
+// console.log(total);
+// }
+// fun(20,10);
+// fun(10, 15);
+function fun(num1){
+    let total = num1 * 10;
+    return total;
 }
-fun(20,10);
-fun(10, 15);
+let a = fun(5);
+let b = fun(10)
+console.log(a + b);

@@ -112,8 +112,15 @@
 // for(let i = 0; i <nums.length ; i ++ ){
 //     console.log(nums[i])
 // }
-let i = 0;
-while(i<=10){
-    console.log(i);
-    i++
+// let i = 0;
+// while(i<=10){
+//     console.log(i);
+//     i++
+// }
+function fun(num1, num2){
+    let total = num1 + num2;
+
+console.log(total);
 }
+fun(20,10);
+fun(10, 15);

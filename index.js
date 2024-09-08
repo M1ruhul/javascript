@@ -124,10 +124,24 @@
 // }
 // fun(20,10);
 // fun(10, 15);
-function fun(num1){
-    let total = num1 * 10;
-    return total;
+// function fun(num1){
+//     let total = num1 * 10;
+//     return total;
+// }
+// let a = fun(5);
+// let b = fun(10)
+// console.log(a + b);
+function namota(num1, num2){
+    let total = num1 * num2;
+    console.log(total);
 }
-let a = fun(5);
-let b = fun(10)
-console.log(a + b);
+namota(2, 1);
+namota(2, 2);
+namota(2, 3);
+namota(2, 4);
+namota(2, 5);
+namota(2, 6);
+namota(2, 7);
+namota(2, 8);
+namota(2, 9);
+namota(2, 10);

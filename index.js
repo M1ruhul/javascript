@@ -131,17 +131,45 @@
 // let a = fun(5);
 // let b = fun(10)
 // console.log(a + b);
-function namota(num1, num2){
-    let total = num1 * num2;
-    console.log(total);
+
+// function namota(num1, num2){
+//     let total = num1 * num2;
+//     console.log(total);
+// }
+// namota(2, 1);
+// namota(2, 2);
+// namota(2, 3);
+// namota(2, 4);
+// namota(2, 5);
+// namota(2, 6);
+// namota(2, 7);
+// namota(2, 8);
+// namota(2, 9);
+// namota(2, 10);
+
+// let myInfo = {YourName:'write your name', Village: 'Name your area', Phone: 'type your number'}
+// let yourInfo = {YourName:'write your name', Village: 'Name your area', Phone: 'type your number'}
+// let herInfo = {YourName:'write your name', Village: 'Name your area', Phone: 'type your number'}
+// console.log(myInfo);
+// console.log(myInfo.Phone);
+function HerInfo(YourName, Village, Phone){
+    this.YourName = YourName;
+    this.Village = Village;
+    this.Phone = Phone;
+    this.OwnName = function(){
+        console.log(this.YourName);
+        console.log(this.Village);
+        console.log(this.Phone);
+    }
+
 }
-namota(2, 1);
-namota(2, 2);
-namota(2, 3);
-namota(2, 4);
-namota(2, 5);
-namota(2, 6);
-namota(2, 7);
-namota(2, 8);
-namota(2, 9);
-namota(2, 10);
+let NewObj = new HerInfo('Samina', 'Patia', 352421);
+let NewOobj = new HerInfo('Rikta', 'Lesbon', '0132902');
+let NewOobj1 = new HerInfo('Rikta', 'Lesbon', '0132902');
+let NewOobj2 = new HerInfo('Rikta', 'Lesbon', '0132902');
+// let Finalobj = new HerInfo('Samina', 'Patia', 0182902);
+// let Finalobj = new HerInfo('Samina', 'Patia', 0182902);
+NewObj.OwnName();
+NewOobj.OwnName();
+NewOobj1.OwnName();
+NewOobj2.OwnName();

@@ -152,24 +152,34 @@
 // let herInfo = {YourName:'write your name', Village: 'Name your area', Phone: 'type your number'}
 // console.log(myInfo);
 // console.log(myInfo.Phone);
-function HerInfo(YourName, Village, Phone){
-    this.YourName = YourName;
-    this.Village = Village;
-    this.Phone = Phone;
-    this.OwnName = function(){
-        console.log(this.YourName);
-        console.log(this.Village);
-        console.log(this.Phone);
-    }
+// function HerInfo(YourName, Village, Phone){
+//     this.YourName = YourName;
+//     this.Village = Village;
+//     this.Phone = Phone;
+//     this.OwnName = function(){
+//         console.log(this.YourName);
+//         console.log(this.Village);
+//         console.log(this.Phone);
+//     }
 
+// }
+// let NewObj = new HerInfo('Samina', 'Patia', 352421);
+// let NewOobj = new HerInfo('Rikta', 'Lesbon', '0132902');
+// let NewOobj1 = new HerInfo('Rikta', 'Lesbon', '0132902');
+// let NewOobj2 = new HerInfo('Rikta', 'Lesbon', '0132902');
+// // let Finalobj = new HerInfo('Samina', 'Patia', 0182902);
+// // let Finalobj = new HerInfo('Samina', 'Patia', 0182902);
+// NewObj.OwnName();
+// NewOobj.OwnName();
+// NewOobj1.OwnName();
+// NewOobj2.OwnName();
+
+
+
+let a = 1;
+if(a=0){
+    console.log('what your fucking thinking about programming?')
 }
-let NewObj = new HerInfo('Samina', 'Patia', 352421);
-let NewOobj = new HerInfo('Rikta', 'Lesbon', '0132902');
-let NewOobj1 = new HerInfo('Rikta', 'Lesbon', '0132902');
-let NewOobj2 = new HerInfo('Rikta', 'Lesbon', '0132902');
-// let Finalobj = new HerInfo('Samina', 'Patia', 0182902);
-// let Finalobj = new HerInfo('Samina', 'Patia', 0182902);
-NewObj.OwnName();
-NewOobj.OwnName();
-NewOobj1.OwnName();
-NewOobj2.OwnName();
+else {
+    console.log('error')
+}

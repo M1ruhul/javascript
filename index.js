@@ -176,10 +176,14 @@
 
 
 
-let a = 1;
-if(a=0){
-    console.log('what your fucking thinking about programming?')
-}
-else {
-    console.log('error')
-}
+// let a = 1;
+// if(a=0){
+//     console.log('what your fucking thinking about programming?')
+// }
+// else {
+//     console.log('error')
+// }
+
+let TernayOp = true;
+let Oput = (TernayOp = false) ? 'it will be true' : 'error';
+console.log(Oput);
